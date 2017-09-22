@@ -1,0 +1,31 @@
+{
+  "name": "turistico_universal",
+  "version": "1.0.0",
+  "description": "pagina con informacion de sitios turisticos universal",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sitios_turisticos"
+  },
+  "keywords": [
+    "turistico",
+    "sitio",
+    "viajes",
+    "paisajes",
+    "donde",
+    "viajar"
+  ],
+  "author": "Juan Gamboa",
+  "license": "MIT"
+}
