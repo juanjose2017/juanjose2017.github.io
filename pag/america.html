@@ -10,25 +10,135 @@
         <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
         <title>America</title>
 
-        <div class="navbar-fixed">
-                <nav>
-                  <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Logo</a>
-                    <ul class="right hide-on-med-and-down">
-                      <li><a href="/index.html">Inicio</a></li>
-                      <li><a href="pag/america.html">America</a></li>
-                      <li><a href="badges.html">Europa</a></li>
-                      <li><a href="sass.html">Africa</a></li>
-                      <li><a href="badges.html">Asia</a></li>
-                      <li><a href="sass.html">Oceania</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>  
+       
         
 </head>
 <body>
-      america
+      <!-- inicio menu principal -->
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper blue">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="?">Inicio</a></li>
+          <li><a href="pag/america.html">America</a></li>
+          <li><a href="badges.html">Europa</a></li>
+          <li><a href="sass.html">Africa</a></li>
+          <li><a href="badges.html">Asia</a></li>
+          <li><a href="sass.html">Oceania</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile" >
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img class="responsive-img" src="../assets/img/m_avion.jpg">
+                </div>
+                <a href="#!user"><img class="circle" src="../assets/img/m_mari.jpg"></a>
+                <a href="#!name"><span class="white-text name">Juan Gamboa</span></a>
+                <a href="#!email"><span class="white-text email">jjgamboa86@misena.edu.co</span></a>
+              </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">home</i>Inicio</a></li>
+            <li><a href="#!"><i class="material-icons">airplanemode_active</i>America</a></li>
+            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Europa</a></li>
+            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Africa</a></li>
+            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Asia</a></li>
+            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Oceania</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Informacion</a></li>
+            <li><a class="waves-effect" href="#!">Programador Juan Gamboa</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </div> 
+  <!-- fin menu principal -->
+
+  <!-- inicio car2ousel -->
+  <div class="carousel">
+      <a class="carousel-item" href="#one!"><img src="../assets/img/am1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="../assets/img/am2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="../assets/img/am3.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="../assets/img/am4.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="../assets/img/am5.jpg"></a>
+    </div>
+  <!-- fin carousel -->
+  <div class="container">
+    <!-- inicio cuerpo -->
+  <div class="row">
+  <!--inicio targeta 1 -->
+      <div class="col s12 m6 l4 xl4">
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/img/am1.jpg">
+            <span class="card-title">Lago Atitlán, Guatemala.</span>
+          </div>
+          <div class="card-content">
+            <p>Rodeado por tres volcanes, este es el lago más profundo de toda Centroamérica. 
+              Atitlán, en lengua náhuatl, significa "en el agua".
+          </p>
+          </div>
+          <div class="card-action">
+            <a href="#">Ver mas sobre el sitio...</a>
+          </div>
+        </div>
+      </div>
+  <!-- fin targeta 1 -->
+  
+  <!--inicio targeta 2 -->
+  <div class="col s12 m6 l4 xl4">
+    <div class="card">
+      <div class="card-image">
+        <img src="../assets/img/am1.2.jpg">
+        <span class="card-title">Bayahibe, República Dominicana</span>
+      </div>
+      <div class="card-content">
+        <p>
+          Una de las mayores atracciones aquí es bucear alrededor de los tres pecios que yacen bajo 
+          el agua. La segunda, por supuesto, es disfrutar de la playa.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+  <!-- fin targeta 2 -->
+  
+  <!--inicio targeta 3 -->
+  <div class="col s12 m6 l4 xl4">
+    <div class="card">
+      <div class="card-image">
+        <img src="../assets/img/am1.3.jpg">
+        <span class="card-title">Machu Picchu, Perú.</span>
+      </div>
+      <div class="card-content">
+        <p>
+            Construído alrededor de 1450, es el símbolo de la ciudad del antiguo Imperio Inca. Cuando vayas, asegúrate de estar 
+            en muy buena forma porque la caminata te desgastará.
+            
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+  <!-- fin targeta 3 -->
+  
+  </div>
+  <!-- fin cuerpo -->
+  </div>
+
+
+  <!-- scripts declara -->
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>  
+  <script src="../main.js"></script>
+  
+ 
     
 </body>
 </html>
