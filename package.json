@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-server-livereload": "^1.9.2"
+    "gulp-clean-css": "^3.9.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
