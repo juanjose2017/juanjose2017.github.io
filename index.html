@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
        
+    <!-- build:css css/css.css -->
     <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!-- build:css css/css.css -->
-
     <link rel="stylesheet" href="css/css.css">
     
     <!-- endbuild -->
@@ -27,10 +26,11 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="?">Inicio</a></li>
           <li><a href="pag/america.html">America</a></li>
-          <li><a href="badges.html">Europa</a></li>
-          <li><a href="sass.html">Africa</a></li>
-          <li><a href="badges.html">Asia</a></li>
-          <li><a href="sass.html">Oceania</a></li>
+          <li><a href="pag/europa.html">Europa</a></li>
+          <li><a href="pag/africa.html">Africa</a></li>
+          <li><a href="pag/asia.html">Asia</a></li>
+          <li><a href="pag/oceania.html">Oceania</a></li>
+          <li><a href="pag/todos.html">Galería</a></li>
         </ul>
         <ul class="side-nav" id="mobile" >
             <li>
@@ -43,12 +43,13 @@
                 <a href="#!email"><span class="white-text email">jjgamboa86@misena.edu.co</span></a>
               </div>
             </li>
-            <li><a href="#!"><i class="material-icons">home</i>Inicio</a></li>
-            <li><a href="#!"><i class="material-icons">airplanemode_active</i>America</a></li>
-            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Europa</a></li>
-            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Africa</a></li>
-            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Asia</a></li>
-            <li><a href="#!"><i class="material-icons">airplanemode_active</i>Oceania</a></li>
+            <li><a href="?"><i class="material-icons">home</i>Inicio</a></li>
+            <li><a href="pag/america.html"><i class="material-icons">airplanemode_active</i>America</a></li>
+            <li><a href="pag/europa.html"><i class="material-icons">airplanemode_active</i>Europa</a></li>
+            <li><a href="pag/africa.html"><i class="material-icons">airplanemode_active</i>Africa</a></li>
+            <li><a href="pag/asia.html"><i class="material-icons">airplanemode_active</i>Asia</a></li>
+            <li><a href="pag/oceania.html"><i class="material-icons">airplanemode_active</i>Oceania</a></li>
+            <li><a href="pag/todos.html"><i class="material-icons">airplanemode_active</i>Galería</a></li>
             <li><div class="divider"></div></li>
             <li><a class="subheader">Informacion</a></li>
             <li><a class="waves-effect" href="#!">Programador Juan Gamboa</a></li>
@@ -114,7 +115,7 @@
                                 <a href="pag/america.html" class="btn-floating halfway-fab waves-effect waves-light blueexit"><i class="material-icons">add</i></a>
                               </div>
                               <div class="card-content">
-                                <p>
+                                <p class="hola">
                                     En nuestra entrada de hoy os traemos una selección de algunos de los paisajes
                                      más bellos de América, la segunda masa de tierra más
                                       grande... 
@@ -138,7 +139,7 @@
                                       <a href="pag/asia.html" class="btn-floating halfway-fab waves-effect waves-light blueexit"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
-                                      <p>
+                                      <p class="hola">
                                           Una inmensa superficie de tierra que alberga infinitos constrastes, 
                                           desde la cima del mundo, el gélido Himalaya,
                                           hasta los hermosos y... 
@@ -167,7 +168,7 @@
                                     <i class="material-icons">add</i></a>
                                 </div>
                                 <div class="card-content">
-                                  <p>
+                                  <p class="hola">
                                     el tercero más grande del mundo por extensión territorial tras
                                      Asia y América.
                                      Un continente de contrastes....
@@ -194,7 +195,7 @@
                                     <a href="pag/europa.html" class="btn-floating halfway-fab waves-effect waves-light blueexit"><i class="material-icons">add</i></a>
                                   </div>
                                   <div class="card-content">
-                                    <p>
+                                    <p class="hola">
                                         el segundo continente más pequeño del mundo tras Oceanía, comprendiendo
                                          un 2% de la superficie del planeta Tierra y alrededor del 6,8%
                                      </div>
@@ -218,7 +219,7 @@
                                     <a href="pag/oceania.html" class="btn-floating halfway-fab waves-effect waves-light blueexit"><i class="material-icons">add</i></a>
                                   </div>
                                   <div class="card-content">
-                                    <p>
+                                    <p class="hola">
                                         Además de los arrecifes de coral, las islas y las penínsulas salpicadas en sus
                                          aguas, el océano alberga algunos de los más bellos y curiosos lugares del mundo...
                                      </div>
@@ -242,7 +243,7 @@
                                       <a href="pag/todos.html" class="btn-floating halfway-fab waves-effect waves-light blueexit"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
-                                      <p>
+                                      <p class="hola">
                                          Aqui estan contenidos todos los sitios bellos para visitar en cualquier 
                                          continente y disfrutar de los mejores paisajes en cualquier lugar del 
                                          mundo a tu gusto...
@@ -261,10 +262,10 @@
               </div>  <!-- container inicial -->
               <!-- un espacio -->
 </div>
-              
+       
+ <!-- build:js main.js -->
 <script src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>  
- <!-- build:js scripts/vendor/main.js -->
 <script src="main.js"></script>
 <!-- endbuild -->
 
